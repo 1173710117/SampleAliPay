@@ -1,0 +1,17 @@
+[INFO|weather|2021-03-08T14:53:18.568+08:00|Before]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=51192; logLocalPort=8080
+[INFO|weather|2021-03-08T14:53:18.639+08:00|After]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=51192; logLocalPort=8080
+[INFO|life|2021-03-08T14:59:00.270+08:00|Before]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=51688; logLocalPort=8081
+[INFO|life|2021-03-08T14:59:00.362+08:00|After]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=51688; logLocalPort=8081
+[BUG|life|2021-03-08T14:59:00.366+08:00|AfterThrowing]: java.lang.RuntimeException: There is no gateway instance in current group
+[INFO|life|2021-03-08T15:02:50.797+08:00|Before]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=52316; logLocalPort=8081
+[INFO|life|2021-03-08T15:02:50.865+08:00|After]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=52316; logLocalPort=8081
+[BUG|life|2021-03-08T15:02:50.868+08:00|AfterThrowing]: java.lang.RuntimeException: There is no gateway instance in current group
+[INFO|life|2021-03-08T15:03:34.980+08:00|Before]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=52442; logLocalPort=8081
+[INFO|life|2021-03-08T15:03:35.048+08:00|After]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=52442; logLocalPort=8081
+[BUG|life|2021-03-08T15:03:35.052+08:00|AfterThrowing]: java.lang.RuntimeException: There is no gateway instance in current group
+[INFO|life|2021-03-08T15:05:07.866+08:00|Before]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=52701; logLocalPort=8081
+[INFO|life|2021-03-08T15:05:07.940+08:00|After]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=52701; logLocalPort=8081
+[BUG|life|2021-03-08T15:05:07.944+08:00|AfterThrowing]: java.lang.RuntimeException: There is no gateway instance in current group
+[INFO|life|2021-03-08T15:05:44.930+08:00|Before]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=52811; logLocalPort=8081
+[INFO|life|2021-03-08T15:05:44.991+08:00|After]: logFromIpAddr=0:0:0:0:0:0:0:1; logLocalAddr=0:0:0:0:0:0:0:1; logFromPort=52811; logLocalPort=8081
+[BUG|life|2021-03-08T15:05:44.994+08:00|AfterThrowing]: java.lang.RuntimeException: There is no gateway instance in current group

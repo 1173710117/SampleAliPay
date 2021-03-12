@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mlog="http://www.wangteng.com/mclient/core/mLogFuncation"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+       http://www.wangteng.com/mclient/core/mLogFuncation
+       http://www.wangteng.com/mclient/core/mLogFuncation.xsd">
+    <mlog:aop-log id="pay" logPath="/data/hitices/test-dir/log/alipay.log" logInfo="true" logBug="false"></mlog:aop-log>
+    <mlog:aop-log id="life" logPath="/data/hitices/test-dir/log/alipay.log" logInfo="true" logBug="false"></mlog:aop-log>
+
+</beans>

@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alipay
+  namespace: kube-test
+  labels:
+    app: alipay
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alipay
+  template:
+    metadata:
+      labels:
+        app: cnweather
+    spec:
+      containers:
+        - name: alipay
+          image: 172.31.23.153:5000/alipay:v2.0
+          ports:
+            - containerPort: 8080
+          volumeMounts:
+            - mountPath: /var/log/mclient
+              name: log-volume
+      volumes:
+        - name: log-volume
+          hostPath:
+            path: /data/hitices/test-dir/log
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: alipay
+  namespace: kube-test
+  labels:
+    app: alipay
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    app: alipay

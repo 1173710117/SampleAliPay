@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: SampleAliPay
+
+mvf4ms:
+  version: 3.1.1
+  dependencies:
+    - name: dependency1
+      dependence:
+        - id: weather
+          serviceName: SampleCNWeather
+          patternUrl: /weather
+          versions:
+            - 2.1.0
+            - 2.2.0
+
+server:
+  port: 8081
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+#      defaultZone: http://172.31.23.153:30761/eureka
